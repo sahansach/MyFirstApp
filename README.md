@@ -18,6 +18,7 @@ This solution approach involves several steps and makes use of various libraries
 - **_Question Answering:_** Use the **RetrievalQA** class from the **langchain.chains** module to answer the questions. This class takes a question, retrieves the most relevant chunks of text from the vector store, and generates a response using the chat model.
   
 <h2>System Prompt</h2>
+
 The system prompt provide to the language model is defined by the **PromptTemplate** class from the **langchain.prompts** module. The prompt template is a string with placeholders for the context and the question. The context is the relevant chunks of text retrieved from the vector store, and the question is the user’s question. The language model uses this prompt to generate the answer.
 
 **In this case, the prompt template is:**
