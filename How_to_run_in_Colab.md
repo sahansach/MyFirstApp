@@ -1,4 +1,8 @@
-To run in colab and streamlit you can use below
+To run in colab and streamlit refer below,
+
+https://www.youtube.com/watch?v=ZZsyxIWdCko
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/ZZsyxIWdCko/0.jpg)](http://www.youtube.com/watch?v=ZZsyxIWdCko)
 
 First install the following packages
 
