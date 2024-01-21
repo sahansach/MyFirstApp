@@ -37,11 +37,23 @@ This prompt instructs the language model to use the provided context to answer t
 
 <h2>Sample Outputs</h2>
 
+<h3>Example 01</h3>
+
+Application Output :
+
 ![alt text](https://github.com/sahansach/MyFirstApp/assets/156666001/23c9fa73-6b66-48f8-afaa-86c9010ec081)
+
+Actula Website Content :
 
 ![alt text](https://github.com/sahansach/MyFirstApp/assets/156666001/d8de15ee-a50a-4455-973f-9cd8e94965a2)
 
+<h3>Example 02</h3>
+
+Application Output :
+
 ![alt text](https://github.com/sahansach/MyFirstApp/assets/156666001/9d0df38b-0709-4bee-994d-3dd84fb3625d)
+
+Actula Website Content :
 
 ![alt text](https://github.com/sahansach/MyFirstApp/assets/156666001/12be5b5e-63bb-4e67-9f9a-f80ce1794bbb)
 
