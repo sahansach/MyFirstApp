@@ -2,9 +2,9 @@
 <h2>Problem Statement</h2>
 The natural language processing problem I am trying to solve is extracting and analyzing text from web pages and then using that information to answer questions. This involves several sub-problems:
 
-- Web Content Extraction: Need to extract the text content from a given URL. This is not a trivial task as web pages contain a lot of non-textual and irrelevant content like ads, menus, footers, etc.
-- Text Chunking: The extracted text can be very large and may not fit into the memory of our machine or the input size of our model. So, need to split the text into manageable chunks.
-- Question Answering: Given a question, need to find the most relevant answer from the chunks of text. This involves understanding the semantics of the question and the text.
+- _Web Content Extraction:_ Need to extract the text content from a given URL. This is not a trivial task as web pages contain a lot of non-textual and irrelevant content like ads, menus, footers, etc.
+- _Text Chunking_: The extracted text can be very large and may not fit into the memory of our machine or the input size of our model. So, need to split the text into manageable chunks.
+- _Question Answering_: Given a question, need to find the most relevant answer from the chunks of text. This involves understanding the semantics of the question and the text.
 
 
 <h2>Solution Approach</h2>
