@@ -2,25 +2,25 @@
 <h2>Problem Statement</h2>
 The natural language processing problem I am trying to solve is extracting and analyzing text from web pages and then using that information to answer questions. This involves several sub-problems:
 
-- _Web Content Extraction:_ Need to extract the text content from a given URL. This is not a trivial task as web pages contain a lot of non-textual and irrelevant content like ads, menus, footers, etc.
-- _Text Chunking_: The extracted text can be very large and may not fit into the memory of our machine or the input size of our model. So, need to split the text into manageable chunks.
-- _Question Answering_: Given a question, need to find the most relevant answer from the chunks of text. This involves understanding the semantics of the question and the text.
+- **_Web Content Extraction:_** Need to extract the text content from a given URL. This is not a trivial task as web pages contain a lot of non-textual and irrelevant content like ads, menus, footers, etc.
+- **_Text Chunking_**: The extracted text can be very large and may not fit into the memory of our machine or the input size of our model. So, need to split the text into manageable chunks.
+- **_Question Answering_**: Given a question, need to find the most relevant answer from the chunks of text. This involves understanding the semantics of the question and the text.
 
 
 <h2>Solution Approach</h2>
 This solution approach involves several steps and makes use of various libraries and models.
 
-- Web Content Extraction:  Use the HTMLHeaderTextSplitter class from the langchain.text_splitter module to extract the text content from the web page. This class splits the HTML content of the page based on the headers (h1, h2, etc.).
-- Text Chunking: Use the RecursiveCharacterTextSplitter class from the langchain.text_splitter module to split the extracted text into chunks. This class recursively splits the text based on various separators like newline characters, periods, spaces, etc.
-- Text Embedding: Convert the chunks of text into vector representations (embeddings) using the OpenAIEmbeddings class from the langchain.embeddings.openai module. These embeddings capture the semantic meaning of the text and can be used for similarity comparison.
-- Vector Storage: Store the embeddings in a Chroma vector store from the langchain.vectorstores module. This allows us to efficiently search for the chunks of text that are most similar to a given query.
-- Chat Model: Use the ChatOpenAI class from the langchain.chat_models module to generate responses to the questions. This class uses the GPT-3.5-turbo model from OpenAI.
-- Question Answering: Use the RetrievalQA class from the langchain.chains module to answer the questions. This class takes a question, retrieves the most relevant chunks of text from the vector store, and generates a response using the chat model.
+- **_Web Content Extraction:_**  Use the **HTMLHeaderTextSplitter** class from the **langchain.text_splitter** module to extract the text content from the web page. This class splits the HTML content of the page based on the headers (h1, h2, etc.).
+- **_Text Chunking:_** Use the **RecursiveCharacterTextSplitter** class from the **langchain.text_splitter** module to split the extracted text into chunks. This class recursively splits the text based on various separators like newline characters, periods, spaces, etc.
+- **_Text Embedding:_** Convert the chunks of text into vector representations (embeddings) using the **OpenAIEmbeddings** class from the **langchain.embeddings.openai** module. These embeddings capture the semantic meaning of the text and can be used for similarity comparison.
+- **_Vector Storage:_** Store the embeddings in a **Chroma** vector store from the **langchain.vectorstores** module. This allows us to efficiently search for the chunks of text that are most similar to a given query.
+- **_Chat Model:_** Use the **ChatOpenAI** class from the **langchain.chat_models** module to generate responses to the questions. This class uses the **GPT-3.5-turbo** model from **OpenAI**.
+- **_Question Answering:_** Use the **RetrievalQA** class from the **langchain.chains** module to answer the questions. This class takes a question, retrieves the most relevant chunks of text from the vector store, and generates a response using the chat model.
   
 <h2>System Prompt</h2>
-The system prompt provide to the language model is defined by the PromptTemplate class from the langchain.prompts module. The prompt template is a string with placeholders for the context and the question. The context is the relevant chunks of text retrieved from the vector store, and the question is the user’s question. The language model uses this prompt to generate the answer.
+The system prompt provide to the language model is defined by the **PromptTemplate** class from the **langchain.prompts** module. The prompt template is a string with placeholders for the context and the question. The context is the relevant chunks of text retrieved from the vector store, and the question is the user’s question. The language model uses this prompt to generate the answer.
 
-In this case, the prompt template is:
+**In this case, the prompt template is:**
 
 ```python
 prompt_template = """Use the following pieces of context to answer the question at the end. \
