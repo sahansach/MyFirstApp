@@ -58,5 +58,5 @@ Actual Website Content :
 ![alt text](https://github.com/sahansach/MyFirstApp/assets/156666001/12be5b5e-63bb-4e67-9f9a-f80ce1794bbb)
 
 <h2>Conclusion</h2>
-This solution approach effectively solves the problem of web content analysis and question answering. It extracts and analyzes the text content from web pages and uses that information to answer questions. The use of advanced AI models and techniques ensures that the answers are accurate and relevant. However, the solution could be improved by handling more complex questions and by improving the accuracy of the web content extraction. Future work could also involve scaling the solution to handle larger web pages and more complex websites with lang translation.
+This solution approach effectively solves the problem of web content analysis and question answering. It extracts and analyzes the text content from web pages and uses that information to answer questions. The use of advanced AI models and techniques ensures that the answers are accurate and relevant. However, the solution could be improved by handling more complex questions and by improving the accuracy of the web content extraction. Future work could also involve scaling the solution to handle larger web pages and more complex websites with language translation.
 
