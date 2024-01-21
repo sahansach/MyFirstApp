@@ -37,5 +37,5 @@ This prompt instructs the language model to use the provided context to answer t
 
 
 <h2>Conclusion</h2>
-This solution approach effectively solves the problem of web content analysis and question answering. It extracts and analyzes the text content from web pages and uses that information to answer questions. The use of advanced AI models and techniques ensures that the answers are accurate and relevant. However, the solution could be improved by handling more complex questions and by improving the accuracy of the web content extraction. Future work could also involve scaling the solution to handle larger web pages and more complex websites.
+This solution approach effectively solves the problem of web content analysis and question answering. It extracts and analyzes the text content from web pages and uses that information to answer questions. The use of advanced AI models and techniques ensures that the answers are accurate and relevant. However, the solution could be improved by handling more complex questions and by improving the accuracy of the web content extraction. Future work could also involve scaling the solution to handle larger web pages and more complex websites with lang translation.
 
