@@ -22,8 +22,12 @@ then run
 ```
 
 
+You have to add a new file named **HTML_QA.py** and copy paste the code in it and then you can run below
 
 ```python
 ! streamlit run HTML_QA.py & npx localtunnel --port 8501
 ```
 
+Once done you will get an IP address and url as shown in below image, follow the instructions in Youtube video to run the app
+
+![alt text](https://github.com/sahansach/MyFirstApp/assets/156666001/bfdc1019-65ae-4230-85c4-1a9653b45668)
