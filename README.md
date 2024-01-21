@@ -35,6 +35,9 @@ Answer:"""
 
 This prompt instructs the language model to use the provided context to answer the question and to admit if it doesn’t know the answer.
 
+<h2>Sample Outputs</h2>
+
+![alt text](https://private-user-images.githubusercontent.com/156666001/298367256-23c9fa73-6b66-48f8-afaa-86c9010ec081.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU4MjIxMTQsIm5iZiI6MTcwNTgyMTgxNCwicGF0aCI6Ii8xNTY2NjYwMDEvMjk4MzY3MjU2LTIzYzlmYTczLTZiNjYtNDhmOC1hZmFhLTg2YzkwMTBlYzA4MS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyMVQwNzIzMzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wZGNiZmI2ZThiNzEzMmYzMGFiY2UwZmFlOGNhMWM0NjU5MTJiYmQ1YjAyOWRiMWY1Mzg2NDU4YTQ4Yjg4MTVlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.LX2HBIRCYIVBAxFq6fxEPA1YmZNdwYH3tze9AZHM-cE)
 
 <h2>Conclusion</h2>
 This solution approach effectively solves the problem of web content analysis and question answering. It extracts and analyzes the text content from web pages and uses that information to answer questions. The use of advanced AI models and techniques ensures that the answers are accurate and relevant. However, the solution could be improved by handling more complex questions and by improving the accuracy of the web content extraction. Future work could also involve scaling the solution to handle larger web pages and more complex websites with lang translation.
