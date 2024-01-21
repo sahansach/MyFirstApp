@@ -1,10 +1,12 @@
 <h1>Project Title: Web Content Analysis and Question Answering using AI</h1>
-##Problem Statement
+<h2>Problem Statement</h2>
 The natural language processing problem I am trying to solve is extracting and analyzing text from web pages and then using that information to answer questions. This involves several sub-problems:
 1.	Web Content Extraction: Need to extract the text content from a given URL. This is not a trivial task as web pages contain a lot of non-textual and irrelevant content like ads, menus, footers, etc.
 2.	Text Chunking: The extracted text can be very large and may not fit into the memory of our machine or the input size of our model. So, need to split the text into manageable chunks.
 3.	Question Answering: Given a question, need to find the most relevant answer from the chunks of text. This involves understanding the semantics of the question and the text.
-Solution Approach
+
+
+<h2>Solution Approach</h2>
 This solution approach involves several steps and makes use of various libraries and models.
 1.	Web Content Extraction:  Use the HTMLHeaderTextSplitter class from the langchain.text_splitter module to extract the text content from the web page. This class splits the HTML content of the page based on the headers (h1, h2, etc.).
 2.	Text Chunking: Use the RecursiveCharacterTextSplitter class from the langchain.text_splitter module to split the extracted text into chunks. This class recursively splits the text based on various separators like newline characters, periods, spaces, etc.
@@ -25,6 +27,8 @@ Question: {question}
 Answer:"""
 
 This prompt instructs the language model to use the provided context to answer the question and to admit if it doesn’t know the answer.
-Conclusion
+
+
+<h2>Conclusion</h2>
 This solution approach effectively solves the problem of web content analysis and question answering. It extracts and analyzes the text content from web pages and uses that information to answer questions. The use of advanced AI models and techniques ensures that the answers are accurate and relevant. However, the solution could be improved by handling more complex questions and by improving the accuracy of the web content extraction. Future work could also involve scaling the solution to handle larger web pages and more complex websites.
 
