@@ -1,0 +1,7 @@
+For this to work, you'll need to install following packages:
+- !pip install streamlit -q
+- !pip install openai
+- !pip install openai langchain sentence_transformers chromadb streamlit
+- !pip install --upgrade langchain
+- !pip install tiktoken
+- !pip install -U langchain-community
