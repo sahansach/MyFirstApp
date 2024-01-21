@@ -1,4 +1,4 @@
-<h1>Project Title: Web Content Analysis and Question Answering using AI</h1>
+<h1>Web Content Analysis and Question Answering using AI</h1>
 <h2>Problem Statement</h2>
 The natural language processing problem I am trying to solve is extracting and analyzing text from web pages and then using that information to answer questions. This involves several sub-problems:
 
