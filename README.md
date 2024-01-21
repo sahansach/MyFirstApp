@@ -19,8 +19,10 @@ This solution approach involves several steps and makes use of various libraries
   
 <h2>System Prompt</h2>
 The system prompt provide to the language model is defined by the PromptTemplate class from the langchain.prompts module. The prompt template is a string with placeholders for the context and the question. The context is the relevant chunks of text retrieved from the vector store, and the question is the user’s question. The language model uses this prompt to generate the answer.
+
 In this case, the prompt template is:
-`
+
+```python
 prompt_template = """Use the following pieces of context to answer the question at the end. \
 If you don't know the answer, just say that you don't know, don't try to make up an answer.\
 
@@ -28,7 +30,7 @@ If you don't know the answer, just say that you don't know, don't try to make up
 
 Question: {question}
 Answer:"""
-`
+```
 
 This prompt instructs the language model to use the provided context to answer the question and to admit if it doesn’t know the answer.
 
